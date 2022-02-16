@@ -8,7 +8,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
+ 
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
 }
@@ -107,6 +107,9 @@ section {
 .header .btn {
   margin-top: 0;
 }
+.header .logo img{
+  height: 6rem;
+}
 
 .logo {
   font-size: 2.5rem;
@@ -131,8 +134,8 @@ section {
   margin-top: 9rem;
   width: 90%;
   border-radius: 1rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../images/bags1.jpg) no-repeat;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/bags1.jpg) no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../images/jj.jpg) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/jj.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -217,7 +220,7 @@ section {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
   gap: 1.5rem;
 }
 
@@ -419,60 +422,4 @@ section {
 
 
 
-  @media (max-width: 991px) {
-    html {
-      font-size: 55%;
-    }
-    .header {
-      padding: 1.5rem 2rem;
-    }
-    section {
-      padding: 3rem 2rem;
-    }
-  }
   
-  @media (max-width: 768px) {
-    #menu-btn {
-      display: inline-block;
-    }
-    .header .navbar {
-      position: absolute;
-      top: 99%;
-      left: 0;
-      right: 0;
-      background: #222;
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-              clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
-    .header .navbar.active {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-              clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    }
-    .header .navbar a {
-      margin: 2rem;
-      font-size: 2rem;
-      display: block;
-    }
-    .home {
-      margin-top: 10rem;
-    }
-    .home .content span {
-      font-size: 8vw;
-    }
-    .home .content h3 {
-      font-size: 9vw;
-    }
-  }
-  
-  @media (max-width: 450px) {
-    html {
-      font-size: 50%;
-    }
-    .about .content h3 {
-      font-size: 3.5rem;
-    }
-    .banner .content h3 {
-      font-size: 2.7rem;
-    }
-  } 
- 
