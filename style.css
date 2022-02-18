@@ -262,14 +262,7 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   gap: 1.5rem;
 }
-.abouts .content .box{
-  background: #fff;
-  border-radius: 1rem;
-  padding: 1rem;
-  text-align: left;
-  border: 0.2rem solid #111;
-  
-}
+
 
 .abouts .content span {
   color: #29d9d5;
@@ -324,13 +317,7 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   gap: 1.5rem;
 }
-.abt .content .box{
-  background: #fff;
-  border-radius: 1rem;
-  padding: 3rem;
-  text-align: center;
-  border: 0.2rem solid #111;
-}
+
 
 .abt .content span {
   color: #29d9d5;
@@ -385,14 +372,7 @@ display: grid;
 grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
 gap: 1.5rem;
 }
-.abouts .content .box{
-background: #fff;
-border-radius: 1rem;
-padding: 1rem;
-text-align: left;
-border: 0.2rem solid #111;
 
-}
 
 .aboutss .content span {
 color: #29d9d5;
@@ -444,13 +424,7 @@ height: 20%;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   gap: 1.5rem;
 }
-.abts .content .box{
-  background: #fff;
-  border-radius: 1rem;
-  padding: 3rem;
-  text-align: center;
-  border: 0.2rem solid #111;
-}
+
 
 .abts .content span {
   color: #29d9d5;
