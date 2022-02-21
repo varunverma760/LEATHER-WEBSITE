@@ -107,7 +107,9 @@ section {
 .header .btn {
   margin-top: 0;
 }
-
+.header .logo img{
+  height: 6rem;
+}
 .logo {
   font-size: 2.5rem;
   color: #fff;
