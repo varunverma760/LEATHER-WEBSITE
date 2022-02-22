@@ -118,12 +118,13 @@ section {
   left:50%;
   top:0;
   content:"";
+  margin-left:-150px;
 
 }
 
 .logo i {
   color: #29d9d5;
-  padding-right: .5rem;
+  padding-right: .5rem; 
 }
 
 
