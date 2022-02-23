@@ -777,7 +777,7 @@ section {
       position: absolute;
       top: 99%;
       left: 0;
-      right: 20%;
+      right: 99%;
       background: #fff;
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
               clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
