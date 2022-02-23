@@ -418,6 +418,9 @@ section {
       font-size: 2rem;
       display: block;
     }
+  .logo{
+    margin-right:-40px;
+  }
     .home {
       margin-top: 10rem;
     }
