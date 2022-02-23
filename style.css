@@ -776,7 +776,7 @@ section {
     .header .navbar {
       position: absolute;
       top: 99%;
-      left: 0;
+      left: 10%;
       right: 0;
       background: #fff;
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
