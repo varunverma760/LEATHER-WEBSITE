@@ -791,6 +791,9 @@ section {
       font-size: 2rem;
       display: block;
     }
+  .logo{
+    margin-right:-150px;
+  }
     .home {
       margin-top: 10rem;
     }
