@@ -3,4 +3,4 @@
 **website link :-** 
 
 
-**https://leatherwebsite.vercel.app/index.html**
+**https://sleepy-mcclintock-9afa75.netlify.app/**
